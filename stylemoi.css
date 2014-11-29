@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'aleoregular';
+    src: url('polices/aleo/Aleo-Regular-webfont.eot');
+    src: url('polices/aleo/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/aleo/Aleo-Regular-webfont.woff') format('woff'),
+         url('polices/aleo/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('polices/aleo/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 
+	padding-top: 15px;
+	padding-bottom: 20px; 
+	color: #000000;
+}
+
+h4 {
+    max-width: 300px;
+    color: gray; /*couleur du texte en gris*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.page_header .nav li {
+	display: inline-block;
+	margin-top: 15px;
+}
+/*Zone de titre*/
+
+h1 {
+	font-family: 'Lobster', cursive;
+	color: #428BCA;
+	margin-bottom: 40 px;
+	display: inline;
+}
+
+.nav a {
+  	color: #5a5a5a;
+  	font-size: 15px;
+  	font-weight: bold;
+  	padding: 10px 14px 0px 0px;
+  	text-transform:  uppercase;
+}
+
+.row .nav li {
+	display: inline-block;
+	margin-top: 15px;
+	font-family: 'Vollkorn', serif;
+}
+
+/* mon jumbotron element central */
+
+h2 {
+	font: 24px aleoregular, sans-serif;
+	font-variant: small-caps;
+	color: #696969; /*couleur de tous les h2 en gris*/
+	font-size: 24px;
+}
+
+h3 {
+	font: 24px aleoregular, sans-serif;
+	color: #2ce1f2;
+	font-size: 20px;
+	font-variant: small-caps;
+}
+
+/*élément central*/
+.jumbotron {
+	height:300px;
+  	background-image:url('imagesabout/cthailand.jpg');
+  	position: relative; 
+  	margin-top: 50px;
+  	}
+
+.jumbotron h1 {
+  	color: white;
+	font-family: 'Vollkorn', serif;
+	font-weight: bold;
+	font-style: italic;
+	font size:60px;
+}
+
+#banniere_description  {
+	background-color: rgba(239,239,239, 0.8);
+	bottom: 0;
+	position: absolute;
+	color: #696969	;
+	left: 0;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	width: 1200px;
+	list-style-image:url('images/bullet.png'); /*si jamais je mets des listes, jolie bullet*/
+	padding-left: 60px;
+	padding-top: 10px;
+	width: 1420px;
+}
+
+/*mes listes*/
+
+.container {
+    list-style-image:url('images/bullet.png'); /*si jamais je mets des listes, jolie bullet*/
+}
+
+li{
+	color: gray; /*couleur du texte en gris*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+ }
+ 
+.container img {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	box-shadow: 0px 3px 5px #1c1a19;
+	border-radius: 6px;
+ }
+
+.bucket_list .container {
+	background-color: #efefef;
+ }
+ 
+ /* mes galeries photos */
+ .mespics .container {
+         background-color: #efefef;
+         border-bottom: 1px solid #dbdbdb;
+         margin-bottom: 40px;
+         }
+     
+ .visited .container p {
+ 	font-size:15px;
+ 	margin-bottom:13px;
+ }
+         
+ .visited .container .row img {
+ 	margin-bottom:15px;
+ 	box-shadow: 0px 3px 5px #1c1a19;
+ }
+ 
+
+
+/*mise en page du pied de page*/
+
+.footer img {
+	display: block;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+ }
+
+.footer p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px ;
+ }

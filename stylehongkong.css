@@ -1,0 +1,183 @@
+/*Definition des polices personnalisees et aspect général */
+
+@font-face {
+    font-family: 'aleoregular';
+    src: url('polices/aleo/Aleo-Regular-webfont.eot');
+    src: url('polices/aleo/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/aleo/Aleo-Regular-webfont.woff') format('woff'),
+         url('polices/aleo/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('polices/aleo/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+	font-family: aleoregular, sans-serif;
+	font-variant: small-caps;
+	font-size:24px;
+	color: #696969; /*couleur de tous les h2 fors container en gris*/
+}
+
+body { 
+	padding-top: 15px;
+	padding-bottom: 20px; 
+	color: #000000;
+}
+
+h4 {
+    max-width: 300px;
+    color: gray; /*couleur du texte en gris*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+/*Zone de titre*/
+
+h1 {
+	font-family: 'Lobster', cursive;
+	color: #428BCA;
+	margin-bottom: 40 px;
+	display: inline;
+}
+
+.nav a {
+  	color: #5a5a5a;
+  	font-size: 15px;
+  	font-weight: bold;
+  	padding: 10px 14px 0px 0px;
+  	text-transform:  uppercase;
+}
+
+.nav li {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+/* mon jumbotron element central */
+
+.jumbotron {
+	height:450px;
+  	background-image:url('imagesHK/banniere.jpg');
+  	position: relative; 
+  	margin-top: 20px;
+  	}
+
+.jumbotron h1 {
+ 	color: white;
+  	font: normal 48px aleoregular, sans-serif;
+  	font-weight: normal;
+  	text-align: center;
+}
+
+.jumbotron h2 {
+	color: white;
+	font: normal 36px aleoregular, sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+.jumbotron img {
+	display: block;
+	margin-top:20px;
+}
+
+.jumbotron .container {
+    margin-top:40px;
+}
+
+#banniere_description  {
+	background-color: rgba(239,239,239, 0.8);
+	bottom: 0;
+	position: absolute;
+	color: #696969	;
+	left: 0;
+	padding: 20px 50px 20px 50px;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+em {
+	text-decoration: line-through;
+	font-weight: normal;
+	font-style: normal;
+	}
+
+/*Mes billets de sens*/   
+         
+.sens .container {
+    padding: 10px 10px 20px 10px;
+    list-style-image:url('images/bullet.png'); /*si jamais je mets des listes, jolie bullet*/
+    text-align: justify;
+    margin-bottom: 50px; /*a la fin des 6 blocs de texte */
+}
+
+.sens .container [class*="col-"] {
+   	width: 340px;
+  	margin-left: 20px;
+	margin-right:20px;
+  	margin-bottom: 40 px;
+	height: 12.5cm;
+}
+        
+.sens .container h2 {
+	position: inline;
+	font-size: 26px;
+	color: #072868; /*couleur des titres en darkblue*/
+}
+        
+.sens .container p {
+    max-width: 300px;
+    color: gray; /*couleur du texte en gris*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 18px;
+}
+        
+.sens .container img {
+   	margin-bottom: 10px;
+    box-shadow: 0px 3px 5px #1c1a19;
+    display:  inline-block;
+} 
+    
+/*partie the_guy*/
+   
+#the_guy h2 {
+  color: #fc1414; /*couleur du titre guy en rouge vif*/
+}   
+
+     
+
+/* mes galeries photos */
+.visited .container {
+        background-color: #efefef;
+        border-bottom: 1px solid #dbdbdb;
+        margin-bottom: 40px;
+        }
+    
+.visited .container p {
+	font-size:15px;
+	margin-bottom:13px;
+}
+        
+.visited .container .row img {
+	margin-bottom:15px;
+	box-shadow: 0px 3px 5px #1c1a19;
+}
+
+/*mise en page du pied de page*/
+.footer img {
+	display: block;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+ }
+
+.footer p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px ;
+ }
+     
+    
+    

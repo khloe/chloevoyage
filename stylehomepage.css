@@ -1,0 +1,148 @@
+/*Definition des polices personnalisees */
+
+@font-face {
+    font-family: 'aleoregular';
+    src: url('polices/aleo/Aleo-Regular-webfont.eot');
+    src: url('polices/aleo/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/aleo/Aleo-Regular-webfont.woff') format('woff'),
+         url('polices/aleo/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('polices/aleo/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*debut de la mise en page */
+
+h1 { 
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	font-style: italic;
+	color: #428BCA;
+	margin-bottom: 20px;
+	}
+
+h2 {
+	font-family: aleoregular, sans-serif;
+	font-variant: small-caps;
+	font-size:24px;
+	color: #696969; /*couleur de tous les h2 en gris*/
+}
+
+em {
+	text-decoration: line-through;
+	font-weight: normal;
+	font-style: normal;
+	}
+	
+h3 {
+	font-family: aleoregular, sans-serif;
+	font-size: 21px;
+	color: #696969; /*couleur de tous les h3 en gris*/
+	font-variant: small-caps;
+}
+
+
+/*élément central*/
+.jumbotron {
+	height:450px;
+  	background-image:url('imagesHP/main.jpg');
+  	position: relative; 
+  	margin-top: 50px;
+  	}
+
+.jumbotron h1 {
+  	color: #428BCA;
+	font: Lobster, cursive;
+	font-weight: normal;
+	text-align: center;
+}
+
+.jumbotron h2 {
+  	color: white;
+	font: normal 36px aleoregular, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px;
+}
+
+.jumbotron .container {
+    margin-top:7px; /*décale la position du container, i.e. titre "bienvenue"*/
+    text-align: center;
+}
+
+#banniere_description  {
+	background-color: rgba(239,239,239, 0.8);
+	bottom: 0;
+	position: absolute;
+	color: #696969	;
+	left: 0;
+	padding: 20px 50px 20px 50px;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}	
+
+.icon img{
+	border-radius: 50%;
+	border: 2px solid black;
+	padding: 10px;
+}
+ 
+.icon{
+	padding-bottom:50px;
+	font-weight: 300;
+}
+ /*mise en page des vignettes*/
+ 
+ .pays img {
+ 	   	position: relative; 
+ 	   	border-radius: 6px ;
+ 	   	box-shadow: 0px 3px 5px #1c1a19;   	
+   	}
+ 
+ .legend {
+ 	background-color: rgba(239,239,239, 0.8);
+ 	position: absolute;
+ 	color: #696969	;
+ 	padding: 5px 30px;
+ 	width:  300px;
+ 	border-bottom-left-radius: 6px;
+ 	border-bottom-right-radius: 6px;
+ 	bottom: 30px;
+ }
+ 
+ h4 {
+     max-width: 300px;
+     color: gray; /*couleur du texte en gris*/
+     font-family: Georgia, "Times New Roman", Times, serif;
+ 	font-size: 16px;
+ 	margin-bottom: 20px;
+ }
+ 
+ /*mise en page du pied de page*/
+.footer{
+ 	padding-top: 30px;
+ 	padding-bottom:10px;
+ 	font-weight:300;
+ 	color:rgb(200,200,200);
+ 	background-color:black;
+ 	font-family: 'Lobster', cursive;
+ 	vertical-align:middle;
+ 	text-align: center;
+ }
+ 
+.footer p {
+ 	font-family: 'Lobster', cursive;
+ 	font-size:16px;
+ }
+ 
+.footer a {
+   color: lightgrey;
+ }
+.footer a:hover {
+   color: white;
+ } 
+ 
+ 
+  	
